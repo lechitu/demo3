@@ -1,53 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="ganeral.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <div class="header_small">
-        <div class="container">
-            <div class="log">
-                <a href="">Đăng nhập</a>
-            </div>
-            <div class="log">
-                <a class="signup" href="">Đăng ký</a>
-            </div>
-            <div class="icon_header product">
-                <img src="images/portfolio.png" alt="">
-                <p>Giỏ hàng: <span>(0) sản phẩm</span></p>
-            </div>
-            <div class="icon_header">
-                <img src="images/search (1).png" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="header_big">
-        <div class="container">
-            <div class="logo">
-                <img src="images/logo.png" alt="">
-            </div>
-            <div class="menu">
-                <div>
-                    <a href="">Trang chủ</a>
+    <header>
+        <div class="header_small">
+            <div class="container">
+                <div class="log">
+                    <a href="">Đăng nhập</a>
                 </div>
-                <div>
-                    <a href="">Giới thiệu</a>
+                <div class="log">
+                    <a class="signup" href="">Đăng ký</a>
                 </div>
-                <div>
-                    <a href="">Sản phẩm</a>
+                <div class="icon_header product">
+                    <img src="images/portfolio.png" alt="">
+                    <p>Giỏ hàng: <span>(0) sản phẩm</span></p>
                 </div>
-                <div>
-                    <a href="">Tin tức</a>
-                </div>
-                <div>
-                    <a href="">Liên hệ</a>
+                <div class="icon_header">
+                    <img src="images/search (1).png" alt="">
                 </div>
             </div>
         </div>
+        <div class="header_big">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <div class="menu_content">
+                        <a href="">TRANG CHỦ</a>
+                    </div>
+                    <div class="menu_content">
+                        <a href="">GIỚI THIỆU</a>
+                    </div>
+                    <div class="dropdown menu_content">
+                        <div>
+                            <a href="">SẢN PHẨM ˅</a>
+                            <div class="dropdown-content">
+                                <a href="">Nhà ở</a>
+                                <a href="">Căn hộ</a>
+                                <a href="">Chung cư</a>
+                                <a href="">Văn phòng</a>
+                                <a href="">Nhà ở dự án</a>
+                                <a href="">Loại khác</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_content">
+                        <a href="">TIN TỨC</a>
+                    </div>
+                    <div class="menu_content">
+                        <a href="">LIÊN HỆ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="picture">
+            <div class="pic_txt">
+                <p>Nhà ở</p>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- 
+    
+    <div class="title">
+        <div class="container">
+            <div>
+                <p>Trang chủ ◊ <span>Nhà ở</span></p>
+            </div>
+        </div>
     </div>
+    <section>
+        <div class="container">
+            <nav>
+                <div class="list_product">
+                    <div class="list">
+                        <img src="images/list1.png" alt="">
+                        <span>DANH MỤC SẢN PHẨM</span>
+                    </div>
+                    <div class="list_item">
+                        <ul>
+                            <li>
+                                <a href="">Nhà ở</a>
+                            </li>
+                            <li>
+                                <a href="">Căn hộ</a>
+                            </li>
+                            <li>
+                                <a href="">Chung cư</a>
+                            </li>
+                            <li>
+                                <a href="">Văn phòng</a>
+                            </li>
+                            <li>
+                                <a href="">Nhà ở dự án</a>
+                            </li>
+                            <li>
+                                <a href="">Loại khác</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hot_product">
+                    <p class="hot_product_txt">SẢN PHẨM BÁN CHẠY</p>
+                    <div class="hot_item">
+                        <div class="hot_img">
+                            <img src="images/hot1.png" alt="">
+                        </div>
+                        <div class="hot_txt">
+                            <p>Căn hộ 2PN tại Pearl Plaza</p><br>
+                            <p>250.000.000<span>đ</span></p>
+                        </div>
+                    </div>
+                    <div class="hot_item">
+                        <div class="hot_img">
+                            <img src="images/hot2.png" alt="">
+                        </div>
+                        <div class="hot_txt">
+                            <p>Căn hộ 3PN tại Pearl Plaza</p><br>
+                            <p>3.000.000.000<span>đ</span></p><br>
+                            <p class="old_price">3.200.000.000<span>đ</span></p>
+                        </div>
+                    </div>
+                    <div class="hot_item">
+                        <div class="hot_img">
+                            <img src="images/hot3.png" alt="">
+                        </div>
+                        <div class="hot_txt">
+                            <p>Bán căn hộ SSG Tower 3PN</p><br>
+                            <p>3.300.000.000<span>đ</span></p>
+                        </div>
+                    </div>
+                    <div class="hot_item">
+                        <div class="hot_img">
+                            <img src="images/hot4.png" alt="">
+                        </div>
+                        <div class="hot_txt">
+                            <p>Bán căn hộ SSG Tower 2 PN</p><br>
+                            <p>3.000.000.000<span>đ</span></p>
+                        </div>
+                    </div>
+                    <div class="hot_item">
+                        <div class="hot_img">
+                            <img src="images/hot5.png" alt="">
+                        </div>
+                        <div class="hot_txt">
+                            <p>Nhà phố đẹp 3 tầng khắc phục nắng hướng tây</p><br>
+                            <p>4.100.000.000<span>đ</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img_promotion">
+                    <img src="images/km.png" alt="">
+                </div>
+            </nav>
+            <article>
+                <div class="sort">
+                    <div class="sort_txt">
+                        <p>Sắp xếp: <span>Hàng mới nhất</span></p>
+                    </div>
+                    <div class="sort_btn">
+                        <div class="sort_btn_icon">
+                            <img src="images/sort1.png" alt="">
+                        </div>
+                        <div class="sort_btn_icon">
+                            <img src="images/sort2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="list_house">
+                    <div class="row">
+                        <div class="house"></div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section> -->
 </body>
+
 </html>

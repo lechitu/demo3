@@ -56,23 +56,6 @@
 .menu {
     float: right;
 }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown-content a:hover {
-    background: cadetblue;
-}
 .picture{
     background-image: url(images/picture.png);
     width: 100%;
@@ -83,127 +66,189 @@
 }
 .pic_txt {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left:38%;
 }
 .picture p {
+    font-family: serif;
     color: #f8e8af;
     font-size: 120px;
     font-style: italic;
 }
-/* .title {
+.title {
+    float: left;
     width: 100%;
     background: #f5f5f5;
-} */
-/* .title p {
+}
+.title p {
     margin: 0;
     padding-bottom: 30px;
     padding-top: 30px;
-} */
-/* .title span {
+}
+.title span {
     color: #b98b3f;
-} */
-/* section {
+}
+.section {
+    margin-top: 80px;
+    float: left;
     width: 100%;
-} */
-/* .list_product {
+}
+.list_product {
     border-left: 1px solid teal;
     border-right: 1px solid teal;
     width: 100%;
-} */
-/* .list_product span {
-    font-size: 27px;
+}
+.list_product span {
+    font-size: 16px;
     color: #fff;
-} */
-/* .list {
+}
+.list {
     background: black;
     padding: 20px;
-} */
-/* nav {
-    width: 23%;
-    margin-top: 80px;
-    margin-right: 2%;
-    float: left;
-} */
-/* .list_item {
+}
+.list_item ul {
     margin: 0;
     padding: 0;
-} */
-/* .list_item ul {
-    margin: 0;
-    padding: 0;
-} */
-/* .list_item li {
+}
+.list_item li {
     list-style-type: none;
     border-bottom: 1px solid black;
     padding: 20px;
-} */
-/* .list_item  a {
+}
+
+.list_item  a {
     text-decoration: none;
     color: black;
-} */
-/* .hot_product {
+}
+.hot_product {
     float: left;
     width: 100%;
-} */
-/* .hot_item {
+}
+.hot_item {
     padding-bottom: 30px;
     margin-top: 30px;
     float: left;
     width: 100%;
     border-bottom: 1px solid black;
-} */
-/* .hot_img {
+}
+.hot_img {
     float: left;
     width: 25%;
-} */
-/* .hot_txt {
+}
+.hot_img img {
+    width: 100%;
+}
+.hot_txt {
     float: left;
-    width: 75%;
-} */
-/* .hot_txt p {
+    width: 73%;
+    padding-left: 2%;
+}
+.hot_txt a {
+    color: black;
+    font-size: 16px;
+}
+.hot_txt p {
+    color: #f43550;
     margin: 0;
-} */
-/* .hot_txt span{
+}
+.hot_txt span{
     text-decoration: underline;
-} */
-/* .old_price {
+}
+.old_price {
+    color: #cccccc;
     text-decoration: line-through;
-} */
-/* .img_promotion img{
+}
+.img_promotion img{
     width: 100%;
     margin-top: 50px;
-} */
-/* .hot_product_txt {
+}
+.hot_product_txt {
     font-weight: bold;
     padding-top: 30px;
     margin: 0;
-} */
-/* article {
-    margin-top: 80px;
-    float: left;
-    width: 75%;
-} */
-/* .sort {
+    font-size: 16px;
+}
+.sort {
     float: left;
     width: 100%;
     border-bottom: 1px solid black;
-} */
-/* .sort_txt {
+}
+.sort_txt {
     float: left;
-} */
-/* .sort_txt span {
+}
+.sort_txt span {
     border: 1px solid black;
     padding: 5px;
-} */
-/* .sort_btn {
+}
+.sort_icon {
     float: right;
-} */
-/* .sort_btn_icon {
+}
+.sort_btn_icon {
     float: left;
     margin: 3px;
-} */
-/* .sort_btn_icon img {
+}
+.sort_btn_icon img {
     border: 1px solid black;
     padding: 5px;
-} */
+}
+.home {
+    margin-top: 50px;
+}
+.home_txt {
+    margin-top: 20px;
+    float: left;
+}
+.home_txt a {
+    float: left;
+    color: black;
+}
+.home_txt span {
+    text-decoration: underline;
+}
+.new_cost {
+    float: left;
+    margin-right: 20px;
+    color: #f43550;
+}
+.old_cost p {
+    color: #cccccc;
+    text-decoration: line-through;
+}
+.footer {
+    background: #252525;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.information {
+    margin-top: 70px;
+    float: left;
+}
+.inf {
+    margin-top: 10px;
+    float: left;
+}
+.inf_icon {
+    float: left;
+}
+.inf_text {
+    margin-left: 20px;
+    float: left;
+}
+.inf_text p {
+    color: #8ca9aa;
+}
+.about {
+    margin-top: 60px;
+}
+.about_title {
+    color: #c3af84;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+.about_content {
+    color: #8ca9aa;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <div class="header">
         <div class="header_small">
             <div class="container">
                 <div class="log">
@@ -43,16 +43,23 @@
                     <div class="menu_content">
                         <a href="">GIỚI THIỆU</a>
                     </div>
-                    <div class="dropdown menu_content">
+                    <div class="menu_content">
                         <div>
-                            <a href="">SẢN PHẨM ˅</a>
-                            <div class="dropdown-content">
-                                <a href="">Nhà ở</a>
-                                <a href="">Căn hộ</a>
-                                <a href="">Chung cư</a>
-                                <a href="">Văn phòng</a>
-                                <a href="">Nhà ở dự án</a>
-                                <a href="">Loại khác</a>
+                            <div class="dropdown">
+                                <a data-toggle="dropdown" href="">SẢN PHẨM<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Nhà ở</a></li>
+                                    <div class="divider"></div>
+                                    <li><a href="#">Căn hộ</a></li>
+                                    <div class="divider"></div>
+                                    <li><a href="#">Chung cư</a></li>
+                                    <div class="divider"></div>
+                                    <li><a href="#">Văn phòng</a></li>
+                                    <div class="divider"></div>
+                                    <li><a href="#">Nhà ở dự án</a></li>
+                                    <div class="divider"></div>
+                                    <li><a href="#">Loại khác</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -70,126 +77,392 @@
                 <p>Nhà ở</p>
             </div>
         </div>
-    </header>
-
-
-
-
-    <!-- 
-    
-    <div class="title">
-        <div class="container">
-            <div>
-                <p>Trang chủ ◊ <span>Nhà ở</span></p>
+        <div class="title">
+            <div class="container">
+                <div>
+                    <p>Trang chủ ◊ <span>Nhà ở</span></p>
+                </div>
             </div>
         </div>
     </div>
-    <section>
+    <div class="section">
         <div class="container">
-            <nav>
-                <div class="list_product">
-                    <div class="list">
-                        <img src="images/list1.png" alt="">
-                        <span>DANH MỤC SẢN PHẨM</span>
-                    </div>
-                    <div class="list_item">
-                        <ul>
-                            <li>
-                                <a href="">Nhà ở</a>
-                            </li>
-                            <li>
-                                <a href="">Căn hộ</a>
-                            </li>
-                            <li>
-                                <a href="">Chung cư</a>
-                            </li>
-                            <li>
-                                <a href="">Văn phòng</a>
-                            </li>
-                            <li>
-                                <a href="">Nhà ở dự án</a>
-                            </li>
-                            <li>
-                                <a href="">Loại khác</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="hot_product">
-                    <p class="hot_product_txt">SẢN PHẨM BÁN CHẠY</p>
-                    <div class="hot_item">
-                        <div class="hot_img">
-                            <img src="images/hot1.png" alt="">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="list_product">
+                        <div class="list">
+                            <img src="images/list1.png" alt="">
+                            <span>DANH MỤC SẢN PHẨM</span>
                         </div>
-                        <div class="hot_txt">
-                            <p>Căn hộ 2PN tại Pearl Plaza</p><br>
-                            <p>250.000.000<span>đ</span></p>
+                        <div class="list_item">
+                            <ul>
+                                <li>
+                                    <a href="">Nhà ở</a>
+                                </li>
+                                <li>
+                                    <a href="">Căn hộ</a>
+                                </li>
+                                <li>
+                                    <a href="">Chung cư</a>
+                                </li>
+                                <li>
+                                    <a href="">Văn phòng</a>
+                                </li>
+                                <li>
+                                    <a href="">Nhà ở dự án</a>
+                                </li>
+                                <li>
+                                    <a href="">Loại khác</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="hot_item">
-                        <div class="hot_img">
-                            <img src="images/hot2.png" alt="">
+                    <div class="hot_product">
+                        <p class="hot_product_txt">SẢN PHẨM BÁN CHẠY</p>
+                        <div class="hot_item">
+                            <div class="hot_img">
+                                <a href=""><img src="images/hot1.png" alt=""></a>
+                            </div>
+                            <div class="hot_txt">
+                                <a href="">Căn hộ 2PN tại Pearl Plaza</a>
+                                <p>250.000.000<span>đ</span></p>
+                            </div>
                         </div>
-                        <div class="hot_txt">
-                            <p>Căn hộ 3PN tại Pearl Plaza</p><br>
-                            <p>3.000.000.000<span>đ</span></p><br>
-                            <p class="old_price">3.200.000.000<span>đ</span></p>
+                        <div class="hot_item">
+                            <div class="hot_img">
+                                <a href=""><img src="images/hot2.png" alt=""></a> </div>
+                            <div class="hot_txt">
+                                <a href="">Căn hộ 3PN tại Pearl Plaza</a>
+                                <p>3.000.000.000<span>đ</span></p>
+                                <p class="old_price">3.200.000.000<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="hot_item">
+                            <div class="hot_img">
+                                <a href=""><img src="images/hot3.png" alt=""></a> </div>
+                            <div class="hot_txt">
+                                <a href="">Bán căn hộ SSG Tower 3PN</a>
+                                <p>3.300.000.000<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="hot_item">
+                            <div class="hot_img">
+                                <a href=""><img src="images/hot4.png" alt=""></a>
+                            </div>
+                            <div class="hot_txt">
+                                <a href="">Bán căn hộ SSG Tower 2 PN</a>
+                                <p>3.000.000.000<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="hot_item">
+                            <div class="hot_img">
+                                <a href=""><img src="images/hot5.png" alt=""></a>
+                            </div>
+                            <div class="hot_txt">
+                                <a href="">Nhà phố đẹp 3 tầng khắc phục nắng hướng tây</a>
+                                <p>4.100.000.000<span>đ</span></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="hot_item">
-                        <div class="hot_img">
-                            <img src="images/hot3.png" alt="">
-                        </div>
-                        <div class="hot_txt">
-                            <p>Bán căn hộ SSG Tower 3PN</p><br>
-                            <p>3.300.000.000<span>đ</span></p>
-                        </div>
-                    </div>
-                    <div class="hot_item">
-                        <div class="hot_img">
-                            <img src="images/hot4.png" alt="">
-                        </div>
-                        <div class="hot_txt">
-                            <p>Bán căn hộ SSG Tower 2 PN</p><br>
-                            <p>3.000.000.000<span>đ</span></p>
-                        </div>
-                    </div>
-                    <div class="hot_item">
-                        <div class="hot_img">
-                            <img src="images/hot5.png" alt="">
-                        </div>
-                        <div class="hot_txt">
-                            <p>Nhà phố đẹp 3 tầng khắc phục nắng hướng tây</p><br>
-                            <p>4.100.000.000<span>đ</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="img_promotion">
-                    <img src="images/km.png" alt="">
-                </div>
-            </nav>
-            <article>
-                <div class="sort">
-                    <div class="sort_txt">
-                        <p>Sắp xếp: <span>Hàng mới nhất</span></p>
-                    </div>
-                    <div class="sort_btn">
-                        <div class="sort_btn_icon">
-                            <img src="images/sort1.png" alt="">
-                        </div>
-                        <div class="sort_btn_icon">
-                            <img src="images/sort2.png" alt="">
-                        </div>
+                    <div class="img_promotion">
+                        <img src="images/km.png" alt="">
                     </div>
                 </div>
-                <div class="list_house">
+                <div class="col-sm-9">
+                    <div class="sort">
+                        <div class="sort_txt">
+                            <p>Sắp xếp: <span>Hàng mới nhất</span></p>
+                        </div>
+                        <div class="sort_icon">
+                            <div class="sort_btn_icon">
+                                <img src="images/sort1.png" alt="">
+                            </div>
+                            <div class="sort_btn_icon">
+                                <img src="images/sort2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="house"></div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home1.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 2 tầng hiện đại đơn giản</a>
+                                    <div class="new_cost">
+                                        <p>5.100.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home2.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 3 tầng hiện đại</a>
+                                    <div class="new_cost">
+                                        <p>5.000.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home3.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 4 tầng hiện đại thoáng mát</a>
+                                    <div class="new_cost">
+                                        <p>5.000.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home3.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 4 tầng hiện đại thoáng mát</a>
+                                    <div class="new_cost">
+                                        <p>2.500.000.000<span>đ</span></p>
+                                    </div>
+                                    <div class="old_cost">
+                                        <p>2.700.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home2.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 3 tầng hiện đại</a>
+                                    <div class="new_cost">
+                                        <p>5.000.000.000<span>đ</span></p>
+                                    </div>
+                                    <div class="old_cost">
+                                        <p>5.100.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home1.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 2 tầng hiện đại đơn giản</a>
+                                    <div class="new_cost">
+                                        <p>5.100.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home3.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 4 tầng hiện đại thoáng mát</a>
+                                    <div class="new_cost">
+                                        <p>2.500.000.000<span>đ</span></p>
+                                    </div>
+                                    <div class="old_cost">
+                                        <p>2.700.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home2.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 3 tầng hiện đại</a>
+                                    <div class="new_cost">
+                                        <p>5.000.000.000<span>đ</span></p>
+                                    </div>
+                                    <div class="old_cost">
+                                        <p>5.100.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="home">
+                                <div class="home_img">
+                                    <a href=""><img src="images/home1.png" alt=""></a>
+                                </div>
+                                <div class="home_txt">
+                                    <a href="">Mẫu thiết kế nhà phố đẹp 2 tầng hiện đại đơn giản</a>
+                                    <div class="new_cost">
+                                        <p>5.100.000.000<span>đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </article>
+            </div>
         </div>
-    </section> -->
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="information">
+                        <div class="logo_ft">
+                            <img src="images/logo2.png" alt="">
+                        </div>
+                        <div class="inf">
+                            <div class="inf_icon">
+                                <img src="images/local.png" alt="">
+                            </div>
+                            <div class="inf_text">
+                                <p>442 Đại La, Hà Nội, Việt Nam</p>
+                            </div>
+                        </div>
+                        <div class="inf">
+                            <div class="inf_icon">
+                                <img src="images/phone.png" alt="">
+                            </div>
+                            <div class="inf_text">
+                                <p>01212111212</p>
+                            </div>
+                        </div>
+                        <div class="inf">
+                            <div class="inf_icon">
+                                <img src="images/mail.png" alt="">
+                            </div>
+                            <div class="inf_text">
+                                <p>aventteam@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <div class="about_title">
+                                    <p>TÀI KHOẢN</p>
+                                </div>
+                                <div class="about_content">
+                                    <p></p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Trang chủ</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Giới thiệu</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Sản phẩm</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Tin tức</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Liên hệ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <div class="about_title">
+                                    <p>CHÍNH SÁCH</p>
+                                </div>
+                                <div class="about_content">
+                                    <p></p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Trang chủ</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Giới thiệu</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Sản phẩm</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Tin tức</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Liên hệ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <div class="about_title">
+                                    <p>ĐIỀU KHOẢN</p>
+                                </div>
+                                <div class="about_content">
+                                    <p></p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Trang chủ</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Giới thiệu</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Sản phẩm</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Tin tức</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Liên hệ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="about">
+                                <div class="about_title">
+                                    <p>HƯỚNG DẪN</p>
+                                </div>
+                                <div class="about_content">
+                                    <p></p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Trang chủ</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Giới thiệu</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Sản phẩm</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Tin tức</p>
+                                </div>
+                                <div class="about_content">
+                                    <p>Liên hệ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

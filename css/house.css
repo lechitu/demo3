@@ -1,0 +1,149 @@
+.list_product {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 100%;
+}
+.list span {
+    font-size: 16px;
+    color: #fff;
+}
+.list {
+    background: black;
+    padding: 20px;
+}
+.list_item ul {
+    top: -21px;
+    left: 240px;
+}
+.list_item li {
+    list-style-type: none;
+    padding: 9px;
+}
+.list_item  a {
+    text-decoration: none;
+    color: black;
+}
+.item {
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.sp1 {
+    left: 160px;
+}
+.sp2 {
+    left: 154px;
+}
+.item span {
+    color: teal;
+}
+
+.hot_product {
+    float: left;
+    width: 100%;
+}
+.hot_item {
+    padding-bottom: 30px;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.hot_img {
+    float: left;
+    width: 25%;
+}
+.hot_img img {
+    width: 100%;
+}
+.hot_txt {
+    float: left;
+    width: 73%;
+    padding-left: 2%;
+}
+.hot_txt a {
+    color: black;
+    font-size: 16px;
+}
+.hot_txt p {
+    color: #f43550;
+    margin: 0;
+}
+.hot_txt span{
+    text-decoration: underline;
+}
+.old_price {
+    color: #cccccc;
+    text-decoration: line-through;
+}
+.img_promotion img{
+    width: 100%;
+    margin-top: 50px;
+}
+.hot_product_txt {
+    font-weight: bold;
+    padding-top: 30px;
+    margin: 0;
+    font-size: 16px;
+}
+.sort {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.sort_txt {
+    float: left;
+}
+.sort_txt span {
+    border: 1px solid black;
+    padding: 5px;
+}
+.sort_icon {
+    float: right;
+}
+.sort_btn_icon {
+    float: left;
+    margin: 3px;
+}
+.sort_btn_icon img {
+    border: 1px solid black;
+    padding: 5px;
+}
+.home {
+    margin-top: 50px;
+}
+.home_txt {
+    margin-top: 20px;
+    float: left;
+}
+.home_txt a {
+    float: left;
+    color: black;
+}
+.home_txt span {
+    text-decoration: underline;
+}
+.home_img {
+    position: relative;
+}
+.promotion {
+    background: #bda87f;
+    top: 15px;
+    position: absolute;
+    left: 20px;
+}
+.promotion p {
+    color: #fff;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.new_cost {
+    float: left;
+    margin-right: 20px;
+    color: #f43550;
+}
+.old_cost p {
+    color: #cccccc;
+    text-decoration: line-through;
+}

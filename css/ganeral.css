@@ -1,4 +1,73 @@
 
+header {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: #252525;
+}
+.log a {
+    padding-bottom: 17px;
+    text-decoration: none;
+    color: #b98b3f;
+    border-left: 1px solid #747669;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cart {
+    text-align: right;
+}
+.cart p {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    border-left: 1px solid;
+    display: inline;
+    color: #747669;
+}
+.cart span {
+    color: #b98b3f;
+}
+.bd {
+    border-right: 1px solid #747669;
+}
+.logo {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.menu_list {
+    margin-top: 40px;
+}
+.menu_list li a {
+    font-weight: bold;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+.dr_product {
+    position: relative;
+}
+.dr_product ul {
+    top: 50px;
+    position: absolute;
+}
+.picture{
+    background-image: url(../images/home_bgr.png);
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+.picture h1 {
+    padding-top: 100px;
+    font-style: italic;
+    font-size: 70px;
+    color: #cdc195;
+    font-family: -webkit-pictograph;
+}
+
+/* 
 .header_small {
     float: left;
     width: 100%;
@@ -6,7 +75,7 @@
 }
 .log {
     float: left;
-    border-left: 1px solid #747669;
+    border-left: 1px solid;
 }
 .log a {
     text-decoration: none;
@@ -15,11 +84,11 @@
     padding: 20px;  
 }
 .signup {
-    border-right: 1px solid #747669;
+    border-right: 1px solid;
 }
 .icon_header {
     float: right;
-    border-left: 1px solid #747669;
+    border-left: 1px solid;
 }
 .icon_header p {
     display: inline;
@@ -33,7 +102,7 @@
     color: #b98b3f;
 }
 .ic {
-    border-right: 1px solid #747669;
+    border-right: 1px solid;
 }
 .logo {
     float: left;
@@ -130,4 +199,4 @@
     color: #8ca9aa;
     margin-left: 20%;
     margin-bottom: 30px;
-}
+} */

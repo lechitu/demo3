@@ -62,11 +62,44 @@ header {
 .picture h1 {
     padding-top: 100px;
     font-style: italic;
-    font-size: 70px;
+    font-size: 60px;
     color: #cdc195;
     font-family: -webkit-pictograph;
 }
-
+@media only screen and (max-width: 600px) {
+    h1.topic {
+      font-size: 17px;
+    }
+  }
+footer {
+    padding-bottom: 50px;
+    margin-top: 30px;
+    background: #252525;
+}
+.information {
+    margin-top: 50px;
+}
+.logo_ft {
+    margin-bottom: 20px;
+}
+.inf {
+    color: #90aba8;
+}
+.about {
+    padding-left: 60px;
+    margin-top: 50px;
+}
+.about_title {
+    margin-bottom: 45px;
+}
+.about_title p {
+    font-weight: bold;
+    color: #b6a56f;
+}
+.about_content {
+    margin-top: 20px;
+    color: #90aba8;
+}
 /* 
 .header_small {
     float: left;

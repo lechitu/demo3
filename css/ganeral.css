@@ -67,6 +67,11 @@ header {
     font-family: -webkit-pictograph;
 }
 @media only screen and (max-width: 600px) {
+    .picture_product {
+      height: 210px;
+    }
+  }
+@media only screen and (max-width: 600px) {
     h1.topic {
       font-size: 17px;
     }
